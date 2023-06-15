@@ -9,7 +9,7 @@ variables:
 
   namespace: mlopslt33 #Note: A namespace with many characters will cause storage account creation to fail due to storage account names having a limit of 24 characters.
   postfix: c
-  location: eastus
+  location: eastus-2
 
   environment: prod
   enable_aml_computecluster: true
